@@ -13,7 +13,8 @@ export default class Board extends React.Component {
   render(){
     return(
       <div className="box-container">
-        Box model
+        <h1> Title </h1>
+
       </div>
     )
   }
