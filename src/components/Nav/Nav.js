@@ -1,5 +1,7 @@
 import React from 'react';
 import './Nav.css';
+import { Link } from 'react-router-dom';
+
 
 class Nav extends React.Component {
   constructor(props) {
@@ -11,7 +13,11 @@ class Nav extends React.Component {
   render() {
     return(
       <div className="boardNav">
-        Main Menu
+        <h3> Menu </h3>
+
+        <div>
+            <Link to="/">Home</Link>
+          </div>
       </div>
     )
   }

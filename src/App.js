@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Route } from 'react-router-dom';
 import Title from './components/Title/Title.js'
 import Nav from './components/Nav/Nav.js';
 import Board from './components/Board/Board.js'
@@ -15,8 +16,10 @@ function App() {
 
         <Nav />
 
-        <Board />
+
       </div>
+
+      <Route exact path="/" component={ Board }/>
     </div>
   );
 }
