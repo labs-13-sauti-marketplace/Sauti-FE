@@ -1,16 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Navigation from './components/Navbar/Navbar.js'
-import Dashboard from './components/Dashboard/Dashboard';
+import Title from './components/Title/Title.js'
+import Nav from './components/Nav/Nav.js';
+import Board from './components/Board/Board.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-Navbar">
-        <Navigation />
+        <Title />
       </header>
-      <Dashboard />
+
+      <div className="container-fluid nav-board">
+
+        <Nav />
+
+        <Board />
+      </div>
     </div>
   );
 }

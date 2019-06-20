@@ -1,0 +1,10 @@
+.boardNav {
+  margin-top: 8px;
+  background-color: silver;
+  width: 15%;
+  border: 5px double black;
+  text-align: center;
+  height: 100vh;
+  padding-top: 20px;
+  box-shadow: 5px 2px 10px black;
+}

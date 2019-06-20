@@ -1,7 +1,7 @@
 import React from 'react';
-import './Dashboard.css';
+import './Nav.css';
 
-class Dashboard extends React.Component {
+class Nav extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -10,11 +10,11 @@ class Dashboard extends React.Component {
 
   render() {
     return(
-      <div className="dashboard">
+      <div className="boardNav">
         Main Menu
       </div>
     )
   }
 }
 
-export default Dashboard;
+export default Nav;

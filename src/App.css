@@ -2,3 +2,8 @@
   background-color: #282c34;
   color: white;
 }
+
+.nav-board {
+  display: flex;
+  flex-direction: row;
+}

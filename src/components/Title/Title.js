@@ -4,9 +4,9 @@ import {
   NavbarBrand,
 } from 'reactstrap';
 
-import './Navbar.css';
+import './Title.css';
 
-export default class Navigation extends React.Component {
+export default class Title extends React.Component {
   constructor(props) {
     super(props);
 
