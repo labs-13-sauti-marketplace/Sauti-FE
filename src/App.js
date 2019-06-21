@@ -19,7 +19,7 @@ function App() {
 
       </div>
 
-      <Route exact path="/" component={ Board }/>
+      <Route exact path="/countries" component={ Board }/>
     </div>
   );
 }
