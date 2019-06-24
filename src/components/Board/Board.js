@@ -1,6 +1,8 @@
 import React from 'react';
 import './Board.css';
 import Market from './Market/Market.js'
+import { Route } from 'react-router-dom';
+import CountryList from './Countries/CountryList.js'
 
 
 export default class Board extends React.Component {
@@ -16,8 +18,9 @@ export default class Board extends React.Component {
   render(){
     return(
       <div className="box-container">
-        <h1> Dashboard </h1>
+        <h3> Welcome </h3>
 
+      <Route exact path="/countries" component={ CountryList } />
       </div>
     )
   }
