@@ -16,7 +16,7 @@ class Nav extends React.Component {
         <h3> Menu </h3>
 
         <div>
-            <Link to="/">Home</Link>
+            <Link to="/countries"> countries </Link>
           </div>
       </div>
     )

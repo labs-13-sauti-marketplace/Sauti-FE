@@ -5,23 +5,28 @@ import Title from './components/Title/Title.js'
 import Nav from './components/Nav/Nav.js';
 import Board from './components/Board/Board.js'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-Navbar">
-        <Title />
-      </header>
+class App extends React.Component {
+    constructor(props){
+      super(props);
+      this.state = {
 
-      <div className="container-fluid nav-board">
+      }
+    }
 
-        <Nav />
-
-
+    render() {
+    return(
+      <div className="App">
+        <header className="App-Navbar">
+          <Title />
+        </header>
+        <div className="container-fluid nav-board">
+          <Nav />
+          <Route exact path="/" component={ Board }/>
+        </div>
       </div>
+    )
+    }
+  }
 
-      <Route exact path="/" component={ Board }/>
-    </div>
-  );
-}
 
 export default App;
