@@ -8,14 +8,16 @@ export default class Board extends React.Component {
     super(props);
     this.state = {
 
-    }
+      savedCountries: [],
+    };
   } // end of constructor
+
 
   render(){
     return(
       <div className="box-container">
-        <h1> Title </h1>
-        <Market /> 
+        <h1> Dashboard </h1>
+
       </div>
     )
   }

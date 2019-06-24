@@ -1,10 +1,10 @@
 import React from 'react';
+import './Market.css';
 
 const Market = props => {
   return (
     <div>
-      Market table
-      
+      <p>Market: {props.item.name}</p>
     </div>
   )
 }
