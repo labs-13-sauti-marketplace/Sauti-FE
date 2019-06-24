@@ -21,8 +21,8 @@ class App extends React.Component {
         </header>
         <div className="container-fluid nav-board">
           <Nav />
+          <Route exact path="/" component={ Board }/>
         </div>
-        <Route exact path="/" component={ Board }/>
       </div>
     )
     }
