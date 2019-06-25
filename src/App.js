@@ -4,7 +4,6 @@ import { Route } from 'react-router-dom';
 import Title from './components/Title/Title.js'
 import Nav from './components/Nav/Nav.js';
 import Board from './components/Board/Board.js'
-import CountryList from './components/Board/Countries/CountryList.js'
 
 class App extends React.Component {
     constructor(props){
@@ -23,7 +22,6 @@ class App extends React.Component {
         <div className="container-fluid nav-board">
           <Nav />
           <Route exact path="/" component={ Board }/>
-          <Route exact path="/countries" component= { CountryList } />
         </div>
       </div>
     )
