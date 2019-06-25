@@ -10,6 +10,8 @@ class Nav extends React.Component {
     }
   }
 
+
+
   render() {
     return(
       <div className="boardNav">
@@ -17,6 +19,7 @@ class Nav extends React.Component {
 
         <div>
             <Link to="/countries"> countries </Link>
+            <Link to="/topics"> Topics </Link >
         </div>
       </div>
     )

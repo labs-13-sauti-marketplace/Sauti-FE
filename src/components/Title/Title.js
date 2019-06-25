@@ -24,7 +24,7 @@ export default class Title extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Sauti App</NavbarBrand>
+          <NavbarBrand href="/">Sauti Marketplace</NavbarBrand>
         </Navbar>
       </div>
     );
