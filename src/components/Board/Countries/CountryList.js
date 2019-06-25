@@ -26,7 +26,7 @@ class CountryList extends React.Component {
   render() {
     return (
       <div className="movie-list">
-        Here
+        Here is the Country List component
       </div>
     );
   }

@@ -10,14 +10,17 @@ class Nav extends React.Component {
     }
   }
 
+
+
   render() {
     return(
       <div className="boardNav">
-        <h3> Menu </h3>
+        <Link to="/">  <h3> Menu </h3> </Link>
 
         <div>
             <Link to="/countries"> countries </Link>
-          </div>
+            <Link to="/topics"> Topics </Link >
+        </div>
       </div>
     )
   }
