@@ -1,20 +1,19 @@
-.boardNav {
+.boardContainer {
   margin-top: 8px;
   background-color: #90AFC5;
   width: 20%;
   border: 5px double black;
   text-align: center;
-  height: 100vh;
+  height: 40vh;
   padding-top: 20px;
   box-shadow: 5px 2px 10px black;
   list-style-type: none;
 }
 
-
 .countries{
-  font-size: 0.7em;
+  font-size: 1.2em;
   font-weight: bold;
-  line-height: normal;
+  line-height: $lh;
   letter-spacing: 2px;
   color: #2A3132;
 }
