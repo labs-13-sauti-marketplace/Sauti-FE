@@ -2,7 +2,7 @@ import React from 'react';
 import './Nav.css';
 import { Link } from 'react-router-dom';
 
-class Nav extends React.Component {
+export default class Nav extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,8 +20,6 @@ class Nav extends React.Component {
   }
 
   render() {
-    const {name} = this.state.countries
-    console.log(this.state.countries);
     return(
       <div className="boardContainer">
         <Link to="/">  <h3> Menu </h3> </Link>
@@ -36,5 +34,3 @@ class Nav extends React.Component {
     )
   }
 }
-
-export default Nav;

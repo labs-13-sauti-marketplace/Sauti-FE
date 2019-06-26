@@ -7,4 +7,6 @@
 .nav-board {
   display: flex;
   flex-direction: row;
+  border: 1px solid orange;
+  padding: 50px;
 }

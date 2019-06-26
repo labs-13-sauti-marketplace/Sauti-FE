@@ -1,6 +1,7 @@
 import React from 'react';
 import './Board.css';
 import { Route } from 'react-router-dom';
+import MarketList from './Market/MarketList.js'
 
 
 
@@ -16,7 +17,14 @@ export default class Board extends React.Component {
   render(){
     return(
       <div className="box-container">
-        <h3> Dashbord </h3>
+      <h3> Dashbord </h3>
+
+
+      <div className="market-places">
+        <p> This is the market place </p>
+
+      
+      </div>
       </div>
     )
   }
