@@ -17,7 +17,7 @@ export default class Board extends React.Component {
   render(){
     return(
       <div className="box-container">
-      <h3> Dashbord </h3>
+      <h3> Dashboard </h3>
 
 
       <div className="market-places">
